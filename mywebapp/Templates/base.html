@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mi Web{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>{% block header %}Bienvenido a Mi Web{% endblock %}</h1>
+    </header>
+    <nav>
+        <!-- Barra de navegación común a todas las páginas -->
+    </nav>
+    <section>
+        {% block content %}{% endblock %}
+    </section>
+    <footer>
+        <!-- Pie de página común a todas las páginas -->
+    </footer>
+</body>
+</html>
