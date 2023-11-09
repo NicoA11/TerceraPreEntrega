@@ -13,3 +13,7 @@ class Cliente(models.Model):
     email = models.EmailField()
     telefono = models.CharField(max_length=15)
 
+INSTALLED_APPS = [
+    # Otras aplicaciones...
+    'MiPrimeraWeb',
+]
